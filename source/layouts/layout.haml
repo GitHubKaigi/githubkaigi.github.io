@@ -1,0 +1,47 @@
+!!! 5
+/[if lt IE 7] <html class="no-js lt-ie9 lt-ie8 lt-ie7">
+/[if IE 7]    <html class="no-js lt-ie9 lt-ie8">
+/[if IE 8]    <html class="no-js lt-ie9">
+<!--[if gt IE 8]><!-->
+%html{ class: "no-js", lang: "en" }
+  <!--<![endif]-->
+  %head
+    %meta{ charset: "utf-8" }
+    %meta{ lang: "ja" }
+    %meta{'http-equiv' => "X-UA-Compatible", content: "IE=edge,chrome=1" }
+    %title= current_page.data.title
+    %meta{ name: "description", content: "Github Kaigi" }
+    %meta{ name: "author", content: "Github User Group" }
+    %meta{ name: "viewport", content: "width=device-width, initial-scale=1.0" }
+    %meta{ content: "Github Kaigi", property: "og:title" }
+    %meta{ content: "article", property: "og:type" }
+    %meta{ content: "Github Kaigi, Sunday, June 1st at 1:00pm. at CyberAgent, Inc. SHIBUYA MARK CITY WEST", property: "og:description" }
+    %meta{ content: "http://githubkaigi.org", property: "og:url" }
+    %meta{ content: "http://githubkaigi.org/ogp.jpg", property: "og:image" }
+    %meta{ content: "Github Kaigi", property: "og:site_name" }
+    %link{ rel: "shortcut icon", href: "/favicon.ico" }
+    %link{ rel: "icon", type: "image/ico", href: "/favicon.ico" }
+    %meta{ name: "viewport", content: "width=device-width,initial-scale=1.0,user-scalable=yes" }
+
+    = stylesheet_link_tag "screen", "font-awesome"
+    = javascript_include_tag "libs/modernizr-2.6.1.min", "mylibs/html5", "mylibs/selectivizr-min", "mylibs/smoothScroll"
+
+  %body{ class: current_page.data.bodyclass }
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/ja_JP/all.js#xfbml=1";
+    fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+    /[if lt IE 7]
+      %p.chromeframe
+        You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.
+
+    = partial 'layouts/header'
+    = yield
+    = partial 'layouts/footer'
+
+    = javascript_include_tag "plugins"
+
