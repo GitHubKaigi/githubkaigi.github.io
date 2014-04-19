@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 17.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" id="logo-black" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
-	 y="0px" viewBox="0 0 253.979 76" enable-background="new 0 0 253.979 76" xml:space="preserve">
-<rect x="0" width="142.583" height="76"/>
+<svg version="1.1" id="logo-black" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 331.88 595.28 178.13" enable-background="new 0 331.88 595.28 178.13" xml:space="preserve">
+<rect y="331.88" width="334.188" height="178.13"/>
 <g>
-	<rect x="140.728" y="1.457" fill="#FFFFFF" width="111.794" height="73.086"/>
-	<path d="M251.065,2.914v70.172h-108.88V2.914H251.065 M253.979,0H139.271v76h114.708V0L253.979,0z"/>
+	<rect x="329.841" y="335.295" fill="#FFFFFF" width="262.025" height="171.3"/>
+	<path d="M588.45,338.71v164.47H333.255V338.71H588.45 M595.28,331.88H326.426v178.13H595.28V331.88L595.28,331.88z"/>
 </g>
-<text transform="matrix(1 0 0 1 6.4573 59.1038)" fill="#FFFFFF" font-family="'Mohave-Bold'" font-size="50" letter-spacing="1">Github</text>
-<text transform="matrix(1 0 0 1 148.8004 59.0624)" font-family="'Mohave-Bold'" font-size="50" letter-spacing="1">KAIGI</text>
+<text transform="matrix(1 0 0 1 15.1351 470.4087)" fill="#FFFFFF" font-family="'Mohave-Bold'" font-size="117.1908" letter-spacing="2">Github</text>
+<text transform="matrix(1 0 0 1 348.7607 470.3106)" font-family="'Mohave-Bold'" font-size="117.1908" letter-spacing="2">KAIGI</text>
 </svg>

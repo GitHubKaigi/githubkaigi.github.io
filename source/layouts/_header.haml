@@ -1,2 +1,50 @@
-%header#header
-  %h1#logo GitHub Kaigi
+%a#simple-menu{href: "#sidr"}
+  %object{data: "assets/img/icon-drawer.svg", height: "15px", object: "", onload: "if (this.getSVGDocument) this.getSVGDocument().documentElement.style.cursor='pointer';", style: "pointer-events: none;", type: "image/svg+xml", width: "19px"}
+#sidr
+  %ul
+    %li
+      %a{href: "/index.html"} Home
+    %li
+      %a{href: "/index.html#section-detail"} Detail
+    %li.active
+      %a{href: "/index.html#section-time-table"} Time Table
+    %li
+      %a{href: "/index.html#section-speaker"} Speaker
+    %li
+      %a{href: "/index.html#section-lt"} LT
+    %li
+      %a{href: "/index.html#section-team"} Team
+
+%header{role: "banner"}
+  .header-inner
+    .header-global
+      %mark
+        %a{href: "/index.html"}
+          %object{data: "assets/img/logo-black.svg", height: "40px", object: "", onload: "if (this.getSVGDocument) this.getSVGDocument().documentElement.style.cursor='pointer';", style: "pointer-events: none;", type: "image/svg+xml", width: "136px", id: "gnav-logo"}
+      %nav
+        %ul
+          %li
+            %a{href: "/index.html#section-detail"}
+              Detail
+          %li
+            %a{href: "/index.html#section-time-table"}
+              Time Table
+          %li
+            %a{href: "/index.html#section-speaker"}
+              Speaker
+          %li
+            %a{href: "/index.html#section-lt"}
+              LT
+          %li
+            %a{href: "/index.html#section-team"}
+              Team
+    .kv-box
+      .kv-text
+        %h1
+          %object{data: "assets/img/logo-white.svg", height: "125px", object: "", onload: "if (this.getSVGDocument) this.getSVGDocument().documentElement.style.cursor='pointer';", style: "pointer-events: none;", type: "image/svg+xml", width: "420px"}
+        %h2
+          Sunday, June 1st at 1:00pm
+        %a{href: "#", class: "kv-btn-registration"}
+          Registration
+      .test
+        %img{src: "assets/img/octcat.png", alt: "Octcat Image", class: "kv-octcat"}
