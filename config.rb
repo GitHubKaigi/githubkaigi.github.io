@@ -1,8 +1,8 @@
 # activate :directory_indexes
 
-set :css_dir,    '2014/sass'
-set :js_dir,     '2014/js'
-set :images_dir, '2014/img'
+set :css_dir,    'assets/sass'
+set :js_dir,     'assets/js'
+set :images_dir, 'assets/img'
 
 ###
 # Compass
