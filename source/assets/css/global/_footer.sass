@@ -1,17 +1,19 @@
-.footer
+footer
+  @extend .container
   padding: 2em 1em
   .copy
     float: left
     margin-bottom: 5px
     font-size: 85%
     color: #ccc
+    @media #{$small}
+      margin-bottom: 10px
   .sns
     text-align: right
     margin: 0
     padding: 0
     @media #{$small}
-      text-align: left
-      margin-bottom: 1%
+      float: left
     .btn
       float: left
       margin-right: 20px
