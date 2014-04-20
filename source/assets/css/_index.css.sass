@@ -47,8 +47,16 @@
     padding: 0
     li.speaker-list-item
       line-height: 25px
-      margin-bottom: 2%
+      margin-bottom: 20px
+      +at-breakpoint($break-desktop)
+        margin-bottom: 3%
   .avatar
+    margin-bottom: 18px
+    img
+      -webkit-border-radius: 6px
+      border-radius: 6px
+      &:hover
+        opacity: 0.8
   .names
     margin-bottom: 20px
     line-height: 1.2
@@ -62,6 +70,9 @@
     padding-top: 20px
     font-size: 100%
     border-top: 1px solid #eeeeee
+    line-height: 1.0
+    i
+      color: #cccccc
 
 #section-lt
   .nav-to-lt-form

@@ -57,20 +57,19 @@ layout    : layout
       %h1 Spearker
 
       %ul.speaker-list
-        - 4.times.each do
-          %li.speaker-list-item
+        - data.speaker.each do |speaker|
+          %li.speaker-list-item<>
             .avatar
-              %a{href: "#", target: "_blank"}
-                %img{src: "", alt: ""}
+              %a{href: "https://github.com/#{speaker.id}", target: "_blank"}
+                %img{ src: "https://avatars2.githubusercontent.com/u//#{speaker.gravatar}", alt: 'Avatar' }
             .names
               .fullname
-                Full Name
+                = speaker.fullname
               .username
-                User Name
+                = speaker.id
             .detail
               %i.icon-user
-              Work Place
-
+              = speaker.organization
     %section#section-lt.cols
       %h1 LT
 
