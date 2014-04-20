@@ -64,6 +64,7 @@ header
         top: 20px
       +at-breakpoint($break-huge)
         top: 50px
+        width: 40%
       @media #{$small}
         +box-sizing(border-box)
         position: relative
@@ -74,28 +75,65 @@ header
         margin: 0
       h2
         color: $white
-        letter-spacing: 0.05em
+        letter-spacing: 0.03em
         +at-breakpoint($break-phone)
           font-size: 184.6%
           margin: 0
         +at-breakpoint($break-desktop)
           font-size: 192.3%
         +at-breakpoint($break-huge)
-          font-size: 261.2%
+          font-size: 223.1%
           margin: 20px 0 0
       a.kv-btn-registration
+        overflow: hidden
+        position: relative
         display: block
-        line-height: 55px
+        line-height: 54px
         background-color: $green
         color: $white
         font-size: 153.8%
         font-weight: bold
         text-decoration: none
         text-align: center
+        z-index: 3
+        &:before
+          content: ''
+          position: absolute
+          top: 0
+          left: 0
+          z-index: -1
+          width: 100%
+          height: 0
+          border: 27px solid $green
+          border-left: 27px solid $yellow
+          border-right: 27px solid $yellow
+        &:after
+          content: ''
+          position: absolute
+          top: 0
+          right: -27px
+          z-index: 0
+          width: 27px
+          height: 0
+          border: 27px solid $yellow
+          border-left: 27px solid $green
+        &:before
+          box-sizing: border-box
+          background-origin: border-box
+        &:after
+          box-sizing: border-box
+          background-origin: border-box
         &:hover
           background-color: darken($green, 10%)
           transition: background-color 0.1s ease-in
           -webkit-transition: background-color 0.1s ease-in
+          &:before
+            border: 27px solid darken($green, 10%)
+            border-left: 27px solid $yellow
+            border-right: 27px solid $yellow
+          &:after
+            border: 27px solid $yellow
+            border-left: 27px solid darken($green, 10%)
         +at-breakpoint($break-phone)
           margin: 20px 0
         +at-breakpoint($break-desktop)
