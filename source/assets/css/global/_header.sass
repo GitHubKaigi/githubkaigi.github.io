@@ -4,26 +4,32 @@ header
   background-color: #fed336
   +at-breakpoint($break-phone)
     height: auto
-    padding: 30px 0
+    padding: 20px 0
   +at-breakpoint($break-tablet)
     padding-top: 30px
   mark
-    background-color: transparent
-    z-index: 100
+    +at-breakpoint($break-phone)
+      display: none
+    +at-breakpoint($break-tablet)
+      display: block
+      background-color: transparent
+      z-index: 100
   .header-inner
     @extend .container
     position: relative
   .header-global
     position: relative
-    height: 100px
     +at-breakpoint($break-phone)
-      display: none
+      height: auto
     +at-breakpoint($break-tablet)
-      display: block
+      height: 100px
   nav
-    position: absolute
-    top: 0
-    right: 0
+    +at-breakpoint($break-phone)
+      position: relative
+    +at-breakpoint($break-tablet)
+      position: absolute
+      top: 0
+      right: 0
     ul
       +horizontal-list
       line-height: 40px
