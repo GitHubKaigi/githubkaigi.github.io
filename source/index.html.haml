@@ -5,20 +5,36 @@ layout    : layout
 ---
 
 #main
-  .conetnt.info-bar
-    .text
-      :markdown
-        # Details
+  .text
+    %section#section-detail.cols
+    .col
+      %h1 Details
 
-        ## What?
-
+    .col4
+      %h2 What?
+      %p
         GitHub KaigiはGitHub User Group主催のイベントであり、GitHubの正式なイベントではありません。
-
+      %p
         GitHub Kaigi is an event organized by the GitHub User Group and is not an official GitHub event.
 
-        ## Where
-
-        CyberAgent, Inc.
+    .col4
+      %h2 Where
+      %p
+        %a{href: "#", target: "_blank"} CyberAgent, Inc.
+        %br
         SHIBUYA MARK CITY WEST
+      %p
+        %a{href: "#", target: "_blank"} Google Map
 
-        Google Map
+    .col4
+      %h2 When?
+      %p
+        Sunday, June 1st 2014,
+        1:00pm until 7:00pm
+
+    .col4
+      %h2 How?
+      %p
+        Doorkeeperから参加登録ができます
+      %a{href: "#"}
+        Registration

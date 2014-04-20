@@ -53,6 +53,10 @@ $layouts: $break-tablet, $break-desktop, $break-huge
       +span-columns(4 omega, 4)
     .kv-octcat
       +span-columns(4 omega, 4)
+  .cols
+    +span-columns(4)
+    .col4
+      +span-columns(4 omega, 4)
   .footer
     @include span-columns(4)
     .sns
@@ -254,6 +258,16 @@ $layouts: $break-tablet, $break-desktop, $break-huge
       +span-columns(8, 16)
     .kv-octcat
       +span-columns(8 omega, 16)
+  .text
+    +span-columns(16)
+  .cols
+    +span-columns(16)
+    .col
+      +span-columns(16, 16)
+    .col4
+      +span-columns(4, 16)
+    .col4:last-child
+      +span-columns(4 omega, 16)
   .footer
     @include span-columns(16)
     .sns
