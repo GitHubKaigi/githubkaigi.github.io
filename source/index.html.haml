@@ -38,3 +38,19 @@ layout    : layout
           Doorkeeperから参加登録ができます
         %a{href: "#"}
           Registration
+
+    %section#section-time-table.cols
+      .col
+        %h1 Time table
+
+      .col
+        %ul.time-table-list
+          - 10.times.each do
+            %li
+              .head
+                .time
+                  1:00 to 1:30
+                .speaker-name
+                  test
+              .body
+                Sign in and warm up
