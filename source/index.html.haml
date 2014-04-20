@@ -81,3 +81,14 @@ layout    : layout
         下記よりLTの応募をしてください。
         %a{href: "", class: "btn-green"}
           LT応募フォーム
+
+    %section#section-team.cols
+      %h1 Team
+
+      %ul.team-list
+        - 10.times.each do
+          %li.team-list-item
+            %a{href: "#", target: "_blank"}
+              %img{src: "", alt: ""}
+              %span.userid
+                @user-id
