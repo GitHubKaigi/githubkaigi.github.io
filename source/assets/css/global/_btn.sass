@@ -1,0 +1,24 @@
+.btn
+  position: relative
+  display: inline-block
+  padding: 7px 12px
+  font-weight: bold
+  white-space: nowrap
+  -webkit-border-radius: 3px
+  border-radius: 3px
+  border: 1px solid #d5d5d5
+  text-shadow: 0 -1px 0 rgba(0,0,0,0.25)
+a.btn-green
+  @extend .btn
+  background-color: #569e3d
+  background-image: linear-gradient(#79d858, #569e3d)
+  color: $white !important
+  background-repeat: repeat-x
+  border-color: #4a993e
+  &:hover
+    background-color: darken(#569e3d, 50%)
+    background-image: linear-gradient(darken(#79d858, 5%), darken(#569e3d, 5%))
+  &:active
+    background-image: linear-gradient(darken(#569e3d, 5%), darken(#569e3d, 5%))
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.1) inset
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1) inset

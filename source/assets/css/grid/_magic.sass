@@ -56,35 +56,24 @@ $layouts: $break-tablet, $break-desktop, $break-huge
   .speaker-list
     +span-columns(4)
     .speaker-list-item
-      +span-columns(4, 4)
+      +span-columns(2, 4)
+      +nth-omega(2n)
+  .cols
+    +span-columns(4)
     .col4
       +span-columns(4 omega, 4)
+  #section-lt
+    +span-columns(4)
+    .lt-guideline
+      +span-columns(4, 4)
+    .nav-to-lt-form
+      +span-columns(4, 4)
   .footer
     @include span-columns(4)
     .sns
       @include span-columns(4 omega, 4)
     .copy
       @include span-columns(4 omega, 4)
-  .nav
-    @include span-columns(4)
-    .home
-      @include span-columns(2, 4)
-    .detail
-      @include span-columns(2 omega, 4)
-    .schedule
-      @include span-columns(2, 4)
-    .register
-      @include span-columns(2 omega, 4)
-    .access
-      @include span-columns(2, 4)
-    .team
-      @include span-columns(2 omega, 4)
-  .article
-    @include span-columns(4)
-    .main
-      @include span-columns(4, 4)
-    .side
-      @include span-columns(4, 4)
   .team
     @include span-columns(4)
     .member
@@ -110,62 +99,18 @@ $layouts: $break-tablet, $break-desktop, $break-huge
     .speaker-list-item
       +span-columns(4, 8)
       +nth-omega(2n)
+  #section-lt
+    +span-columns(8)
+    .lt-guideline
+      +span-columns(8, 8)
+    .nav-to-lt-form
+      +span-columns(8, 8)
   .footer
     @include span-columns(8)
     .sns
       @include span-columns(6, 8)
     .copy
       @include span-columns(2 omega, 8)
-  .nav
-    @include span-columns(8)
-    .home
-      @include span-columns(2, 8)
-    .detail
-      @include span-columns(2, 8)
-    .schedule
-      @include span-columns(2 omega, 8)
-    .register
-      @include span-columns(2, 8)
-    .access
-      @include span-columns(2, 8)
-    .team
-      @include span-columns(2, 8)
-  .headline
-    @include span-columns(8)
-    .intro
-      @include span-columns(8, 8)
-    .notice
-      @include span-columns(8, 8)
-  .workshop
-    @include span-columns(8)
-    .p4d
-      @include span-columns(4, 8)
-    .tutorial
-      @include span-columns(4, 8)
-    .ltthon
-      @include span-columns(4 omega, 8)
-    .andmore
-      @include span-columns(4 omega, 8)
-  .moreinfo
-    @include span-columns(8)
-    .register
-      @include span-columns(8, 8)
-    .register
-      @include span-columns(8, 8)
-    .access
-      @include span-columns(8, 8)
-  .article
-    @include span-columns(8)
-    .main
-      @include span-columns(6, 8)
-    .side
-      @include span-columns(2 omega, 8)
-  .detail
-    @include span-columns(8)
-    .image
-      @include span-columns(3, 8)
-    .text
-      @include span-columns(5 omega, 8)
   .team
     @include span-columns(8)
     .member
@@ -192,62 +137,18 @@ $layouts: $break-tablet, $break-desktop, $break-huge
       +span-columns(4, 12)
       +remove-nth-omega(2n)
       +nth-omega(3n)
+  #section-lt
+    +span-columns(12)
+    .lt-guideline
+      +span-columns(8, 12)
+    .nav-to-lt-form
+      +span-columns(4 omega, 12)
   .footer
     @include span-columns(12)
     .sns
       @include span-columns(8, 12)
     .copy
       @include span-columns(4 omega, 12)
-  .nav
-    @include span-columns(12)
-    .home
-      @include span-columns(2, 12)
-    .detail
-      @include span-columns(2, 12)
-    .schedule
-      @include span-columns(2, 12)
-    .register
-      @include span-columns(2, 12)
-    .access
-      @include span-columns(2 , 12)
-    .team
-      @include span-columns(2 omega, 12)
-  .headline
-    @include span-columns(12)
-    .intro
-      @include span-columns(9, 12)
-    .notice
-      @include span-columns(3 omega, 12)
-  .workshop
-    @include span-columns(12)
-    .p4d
-      @include span-columns(3, 12)
-    .tutorial
-      @include span-columns(3, 12)
-    .ltthon
-      @include span-columns(3, 12)
-    .andmore
-      @include span-columns(3 omega, 12)
-  .moreinfo
-    @include span-columns(12)
-    .booth
-      @include span-columns(4, 12)
-    .register
-      @include span-columns(4, 12)
-    .access
-      @include span-columns(4 omega, 12)
-  .article
-    @include span-columns(12)
-    .main
-      @include span-columns(8, 12)
-    .side
-      @include span-columns(4 omega, 12)
-  .detail
-    @include span-columns(12)
-    .image
-      @include span-columns(3, 12)
-    .text
-      @include span-columns(9 omega, 12)
   .team
     @include span-columns(12)
     .member
@@ -288,62 +189,18 @@ $layouts: $break-tablet, $break-desktop, $break-huge
       +remove-nth-omega(2n)
       +remove-nth-omega(3n)
       +nth-omega(4n)
+  #section-lt
+    +span-columns(16)
+    .lt-guideline
+      +span-columns(12, 16)
+    .nav-to-lt-form
+      +span-columns(4 omega, 16)
   .footer
     @include span-columns(16)
     .sns
       @include span-columns(12, 16)
     .copy
       @include span-columns(4 omega, 16)
-  .nav
-    @include span-columns(16)
-    .home
-      @include span-columns(2, 16)
-    .detail
-      @include span-columns(3, 16)
-    .schedule
-      @include span-columns(3, 16)
-    .register
-      @include span-columns(3, 16)
-    .access
-      @include span-columns(3, 16)
-    .team
-      @include span-columns(2 omega, 16)
-  .headline
-    @include span-columns(16)
-    .intro
-      @include span-columns(12, 16)
-    .notice
-      @include span-columns(4 omega, 16)
-  .workshop
-    @include span-columns(16)
-    .p4d
-      @include span-columns(4, 16)
-    .tutorial
-      @include span-columns(4, 16)
-    .ltthon
-      @include span-columns(4, 16)
-    .andmore
-      @include span-columns(4 omega, 16)
-  .moreinfo
-    @include span-columns(16)
-    .booth
-      @include span-columns(4, 16)
-    .register
-      @include span-columns(6, 16)
-    .access
-      @include span-columns(6 omega, 16)
-  .article
-    @include span-columns(16)
-    .main
-      @include span-columns(12, 16)
-    .side
-      @include span-columns(4 omega, 16)
-  .detail
-    @include span-columns(16)
-    .image
-      @include span-columns(4, 16)
-    .text
-      @include span-columns(12 omega, 16)
   .team
     @include span-columns(16)
     .member

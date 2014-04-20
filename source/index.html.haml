@@ -7,8 +7,7 @@ layout    : layout
 #main
   .text
     %section#section-detail.cols
-      .col
-        %h1 Details
+      %h1 Details
 
       .col4
         %h2 What?
@@ -40,8 +39,7 @@ layout    : layout
           Registration
 
     %section#section-time-table.cols
-      .col
-        %h1 Time table
+      %h1 Time table
 
       .col
         %ul.time-table-list
@@ -56,21 +54,30 @@ layout    : layout
                 Sign in and warm up
 
     %section#section-speaker.cols
-      .col
-        %h1 Spearker
+      %h1 Spearker
 
-      .col
-        %ul.speaker-list
-          - 4.times.each do
-            %li.speaker-list-item
-              .avatar
-                %a{href: "#", target: "_blank"}
-                  %img{src: "", alt: ""}
-              .names
-                .fullname
-                  Full Name
-                .username
-                  User Name
-              .detail
-                %i.icon-user
-                Work Place
+      %ul.speaker-list
+        - 4.times.each do
+          %li.speaker-list-item
+            .avatar
+              %a{href: "#", target: "_blank"}
+                %img{src: "", alt: ""}
+            .names
+              .fullname
+                Full Name
+              .username
+                User Name
+            .detail
+              %i.icon-user
+              Work Place
+
+    %section#section-lt.cols
+      %h1 LT
+
+      .lt-guideline
+        %p
+          LT募集要項
+      .nav-to-lt-form
+        下記よりLTの応募をしてください。
+        %a{href: "", class: "btn-green"}
+          LT応募フォーム

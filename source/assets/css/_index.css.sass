@@ -47,7 +47,7 @@
     padding: 0
     li.speaker-list-item
       line-height: 25px
-      margin-bottom: 1%
+      margin-bottom: 2%
   .avatar
   .names
     margin-bottom: 20px
@@ -62,3 +62,21 @@
     padding-top: 20px
     font-size: 100%
     border-top: 1px solid #eeeeee
+
+#section-lt
+  .nav-to-lt-form
+    padding: 10px
+    border: 1px solid #eeeeee
+    -webkit-border-radius: 4px
+    border-radius: 4px
+    -webkit-box-sizing: border-box
+    -moz-box-sizing: border-box
+    box-sizing: border-box
+    text-align: center
+    +at-breakpoint($break-desktop)
+      padding: 30px 10px
+    .btn-green
+      +at-breakpoint($break-tablet)
+        margin-top: 0
+      +at-breakpoint($break-desktop)
+        margin-top: 13px
