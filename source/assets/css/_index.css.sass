@@ -55,8 +55,11 @@
     img
       -webkit-border-radius: 6px
       border-radius: 6px
+      -webkit-filter: saturate(0%)
       &:hover
-        opacity: 0.8
+        -webkit-filter: saturate(100%)
+        transition: -webkit-filter 0.1s ease-in
+        -webkit-transition: -webkit-filter 0.1s ease-in
   .names
     margin-bottom: 20px
     line-height: 1.2
