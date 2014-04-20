@@ -43,15 +43,15 @@ layout    : layout
 
       .col
         %ul.time-table-list
-          - 10.times.each do
+          - data.timetable.each do |tt|
             %li
               .head
                 .time
-                  1:00 to 1:30
+                  = tt.time
                 .speaker-name
-                  test
+                  = tt.speaker
               .body
-                Sign in and warm up
+                = tt.body
 
     %section#section-speaker.cols
       %h1 Spearker

@@ -1,0 +1,35 @@
+- time: 1:00 to 1:30
+  speaker:
+  body: Sign in and warm up
+
+- time: 1:30 to 2:00
+  speaker: HIROCASTER
+  body: Github 実践入門著者による pull request 型開発とかの話
+
+- time: 2:00 to 2:30
+  speaker: Coby Chapple
+  body: How Github Works
+
+- time: 2:30 to 3:00
+  speaker: Nathan Sobo
+  body: Atom
+
+- time: 3:00 to 3:30
+  speaker:
+  body: Github を使った開発プロセス
+
+- time: 3:30 to 4:00
+  speaker: inao
+  body: Github で雑誌記事を作る
+
+- time: 4:00 to 4:30
+  speaker:
+  body: OSS プロジェクト関連
+
+- time: 5:00 to 6:00
+  speaker: you
+  body: LT Time
+
+- time: 6:00 to 7:00
+  speaker: miyagawa
+  body: Rebuild.fm LIVE
