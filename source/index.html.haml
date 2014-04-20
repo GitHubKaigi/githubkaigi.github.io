@@ -54,3 +54,23 @@ layout    : layout
                   test
               .body
                 Sign in and warm up
+
+    %section#section-speaker.cols
+      .col
+        %h1 Spearker
+
+      .col
+        %ul.speaker-list
+          - 4.times.each do
+            %li.speaker-list-item
+              .avatar
+                %a{href: "#", target: "_blank"}
+                  %img{src: "", alt: ""}
+              .names
+                .fullname
+                  Full Name
+                .username
+                  User Name
+              .detail
+                %i.icon-user
+                Work Place

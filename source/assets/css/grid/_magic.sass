@@ -53,8 +53,10 @@ $layouts: $break-tablet, $break-desktop, $break-huge
       +span-columns(4 omega, 4)
     .kv-octcat
       +span-columns(4 omega, 4)
-  .cols
+  .speaker-list
     +span-columns(4)
+    .speaker-list-item
+      +span-columns(4, 4)
     .col4
       +span-columns(4 omega, 4)
   .footer
@@ -103,6 +105,11 @@ $layouts: $break-tablet, $break-desktop, $break-huge
       +span-columns(4, 8)
     .kv-octcat
       +span-columns(4 omega, 8)
+  .speaker-list
+    +span-columns(8)
+    .speaker-list-item
+      +span-columns(4, 8)
+      +nth-omega(2n)
   .footer
     @include span-columns(8)
     .sns
@@ -179,6 +186,12 @@ $layouts: $break-tablet, $break-desktop, $break-huge
       +span-columns(6, 12)
     .kv-octcat
       +span-columns(6 omega, 12)
+  .speaker-list
+    +span-columns(12)
+    .speaker-list-item
+      +span-columns(4, 12)
+      +remove-nth-omega(2n)
+      +nth-omega(3n)
   .footer
     @include span-columns(12)
     .sns
@@ -268,6 +281,13 @@ $layouts: $break-tablet, $break-desktop, $break-huge
       +span-columns(4, 16)
     .col4:last-child
       +span-columns(4 omega, 16)
+  .speaker-list
+    +span-columns(16)
+    .speaker-list-item
+      +span-columns(4, 16)
+      +remove-nth-omega(2n)
+      +remove-nth-omega(3n)
+      +nth-omega(4n)
   .footer
     @include span-columns(16)
     .sns
