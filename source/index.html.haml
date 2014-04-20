@@ -86,9 +86,10 @@ layout    : layout
       %h1 Team
 
       %ul.team-list
-        - 10.times.each do
-          %li.team-list-item
-            %a{href: "#", target: "_blank"}
-              %img{src: "", alt: ""}
+        - data.team.each do |member|
+          %li.team-list-item<>
+            %a{href: "https://github.com/#{member.id}", target: "_blank"}
+              %img{ src: "https://avatars2.githubusercontent.com/u//#{member.gravatar}?s=100", alt: 'Avatar' }
               %span.userid
-                @user-id
+                @#{member.id}
+

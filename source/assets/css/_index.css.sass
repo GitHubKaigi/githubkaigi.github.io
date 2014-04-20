@@ -87,10 +87,21 @@
     margin: 0
     padding: 0
     li.team-list-item
+      position: relative
       line-height: 25px
       margin-bottom: 2%
+      img
+        -webkit-border-radius: 3px
+        border-radius: 3px
+        &:hover
+          opacity: 0.8
     .userid
+      position: absolute
+      bottom: 0
+      width: 100%
       color: $white
       font-size: 80.4%
+      font-weight: bold
       text-align: center
       text-shadow: 0 0 3px rgba(0, 0, 0, 1.0)
+      letter-spacing: 0.03em
