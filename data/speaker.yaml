@@ -11,14 +11,19 @@
 - id: hirocaster
   fullname: Hiroki OHTSUKA
   gravatar: 122881
-  organization: "Zynga Japan (旧ウノウ株式会社）"
-
-- id: inao
-  fullname: inao
-  gravatar: 35430
-  organization: "Gijutsu-Hyohron Co., Ltd."
+  organization: "Github実践入門著者"
 
 - id: miyagawa
   fullname: Tatsuhiko Miyagawa
   gravatar: 3499
-  organization: COOKPAD Inc.
+  organization: Rebuild
+
+- id: inao
+  fullname: inao
+  gravatar: 35430
+  organization: "技術評論社 Gijutsu-Hyohron Co., Ltd."
+
+- id: shibayu36
+  fullname: shibayu36
+  gravatar: 1132489
+  organization: Hatena Inc.
