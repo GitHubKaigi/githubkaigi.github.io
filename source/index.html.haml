@@ -54,23 +54,26 @@ layout    : layout
                 = tt.body
 
     %section#section-speaker.cols
-      %h1 Speaker
+      %h1 Session & Speaker
 
       %ul.speaker-list
         - data.speaker.each do |speaker|
           %li.speaker-list-item<>
-            .avatar
-              %a{href: "https://github.com/#{speaker.id}", target: "_blank"}
-                %img{ src: "https://avatars2.githubusercontent.com/u//#{speaker.gravatar}", alt: 'Avatar' }
-            .names
-              .fullname
-                = speaker.fullname
-              .username
-                = speaker.id
-            .detail
-              %i.icon-user
-              %span
-                = speaker.organization
+            .speaker
+              .avatar
+                %a{href: "https://github.com/#{speaker.id}", target: "_blank"}
+                  %img{ src: "https://avatars2.githubusercontent.com/u//#{speaker.gravatar}", alt: 'Avatar' }
+              .info
+                .session
+                  = speaker.title
+                .names
+                  .fullname
+                    = speaker.fullname
+                  .sns
+                    %a{href: "https://github.com/#{speaker.id}", target: "_blank"}
+                      %i.icon-github-alt
+                .detail
+                  = speaker.organization
     %section#section-lt.cols
       %h1 LT
 

@@ -56,8 +56,7 @@ $layouts: $break-tablet, $break-desktop, $break-huge
   .speaker-list
     +span-columns(4)
     .speaker-list-item
-      +span-columns(2, 4)
-      +nth-omega(2n)
+      +span-columns(4, 4)
   .cols
     +span-columns(4)
     .col4
@@ -96,8 +95,7 @@ $layouts: $break-tablet, $break-desktop, $break-huge
   .speaker-list
     +span-columns(8)
     .speaker-list-item
-      +span-columns(4, 8)
-      +nth-omega(2n)
+      +span-columns(8, 8)
   #section-lt
     +span-columns(8)
     .lt-guideline
@@ -133,9 +131,7 @@ $layouts: $break-tablet, $break-desktop, $break-huge
   .speaker-list
     +span-columns(12)
     .speaker-list-item
-      +span-columns(4, 12)
-      +remove-nth-omega(2n)
-      +nth-omega(3n)
+      +span-columns(12,12)
   #section-lt
     +span-columns(12)
     .lt-guideline
@@ -182,10 +178,8 @@ $layouts: $break-tablet, $break-desktop, $break-huge
   .speaker-list
     +span-columns(16)
     .speaker-list-item
-      +span-columns(4, 16)
-      +remove-nth-omega(2n)
-      +remove-nth-omega(3n)
-      +nth-omega(4n)
+      +span-columns(8, 16)
+      +nth-omega(2n)
   #section-lt
     +span-columns(16)
     .lt-guideline

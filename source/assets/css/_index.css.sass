@@ -50,38 +50,67 @@
       margin-bottom: 20px
       +at-breakpoint($break-desktop)
         margin-bottom: 3%
+  .session
+    display: inline-block
+    min-height: 2.8em
+    line-height: 1.4
+    margin-bottom: 10px
+    padding-top: 10px
+    font-size: 153.9%
+    font-weight: bold
+    vertical-align: middle
+  .speaker
+    display: table
+    width: 100%
   .avatar
-    margin-bottom: 18px
+    display: table-cell
+    width: 150px
     img
       -webkit-border-radius: 6px
       border-radius: 6px
-      -webkit-filter: saturate(0%)
       &:hover
-        -webkit-filter: saturate(100%)
-        transition: -webkit-filter 0.1s ease-in
-        -webkit-transition: -webkit-filter 0.1s ease-in
+        opacity: 0.8
+  .info
+    display: table-cell
+    vertical-align: top
+    padding-left: 20px
   .names
-    margin-bottom: 20px
+    display: table
+    width: 100%
+    margin-bottom: 15px
     line-height: 1.2
     .fullname
-      font-size: 153.8%
+      display: table-cell
+      font-size: 100%
       font-weight: bold
-    .username
-      color: #777
-      font-size: 138.5%
+      letter-spacing: 0.03em
+    .sns
+      display: table-cell
+      text-align: right
+    i
+      width: 22px
+      height: 22px
+      line-height: 22px
+      margin-left: 1%
+      -webkit-border-radius: 50%
+      border-radius: 50%
+      color: $white
+      font-size: 85%
+      text-align: center
+      vertical-align: moddle
+      opacity: 0.5
+      &:hover
+        opacity: 1.0
+    .icon-github-alt
+      background-color: #777
   .detail
     display: table
     width: 100%
-    padding-top: 20px
+    padding-top: 15px
     font-size: 100%
+    color: #777
     border-top: 1px solid #eeeeee
     line-height: 1.4
-    i
-      display: table-cell
-      padding-right: 5px
-      color: #cccccc
-    span
-      display: table-cell
 
 #section-lt
   div
