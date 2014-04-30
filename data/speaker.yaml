@@ -1,20 +1,20 @@
 - id: nathansobo
   fullname: Nathan Sobo
   gravatar: 1789
-  organization: Github Inc.
+  organization: GitHub Inc.
   title: "Atom"
 
 - id: cobyism
   fullname: Coby Chapple
   gravatar: 296432
-  organization: Github Inc.
-  title: "How Github Works"
+  organization: GitHub Inc.
+  title: "How GitHub Works"
 
 - id: hirocaster
   fullname: Hiroki OHTSUKA
   gravatar: 122881
-  organization: "Github実践入門著者"
-  title: "Github実践入門 ─ Pull Request による開発の変革 (仮)"
+  organization: "GitHub実践入門著者"
+  title: "GitHub実践入門 ─ Pull Request による開発の変革 (仮)"
 
 - id: miyagawa
   fullname: Tatsuhiko Miyagawa
@@ -26,16 +26,16 @@
   fullname: inao
   gravatar: 35430
   organization: "技術評論社 Gijutsu-Hyohron Co., Ltd."
-  title: "Githubで雑誌記事を作る (仮)"
+  title: "GitHubで雑誌記事を作る (仮)"
 
 - id: shibayu36
   fullname: shibayu36
   gravatar: 1132489
   organization: Hatena Inc.
-  title: "はてなブログの開発フローと Github (仮)"
+  title: "はてなブログの開発フローと GitHub (仮)"
 
 - id: amatsuda
   fullname: Akira Matsuda
   gravatar: 11493
   organization: " "
-  title: "OSS と Github (仮)"
+  title: "OSS と GitHub (仮)"
