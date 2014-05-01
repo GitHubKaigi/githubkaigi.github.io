@@ -1,41 +1,41 @@
 - id: nathansobo
   fullname: Nathan Sobo
-  gravatar: 1789
   organization: GitHub Inc.
   title: "Atom"
+  avatar: "https://avatars2.githubusercontent.com/u/1789"
 
 - id: cobyism
   fullname: Coby Chapple
-  gravatar: 296432
   organization: GitHub Inc.
   title: "How GitHub Works"
+  avatar: "https://avatars2.githubusercontent.com/u/296432"
 
 - id: hirocaster
   fullname: Hiroki OHTSUKA
-  gravatar: 122881
   organization: "GitHub実践入門著者"
   title: "GitHub実践入門 ─ Pull Request による開発の変革 (仮)"
+  avatar: "https://avatars2.githubusercontent.com/u/122881"
 
 - id: miyagawa
   fullname: Tatsuhiko Miyagawa
-  gravatar: 3499
   organization: Rebuild
   title: "Rebuild.fm Live"
+  avatar: "https://avatars2.githubusercontent.com/u/3499"
 
 - id: inao
   fullname: inao
-  gravatar: 35430
   organization: "技術評論社 Gijutsu-Hyohron Co., Ltd."
   title: "GitHubで雑誌記事を作る (仮)"
+  avatar: "https://avatars2.githubusercontent.com/u/35430"
 
 - id: shibayu36
   fullname: shibayu36
-  gravatar: 1132489
   organization: Hatena Inc.
   title: "はてなブログの開発フローと GitHub (仮)"
+  avatar: "assets/img/shibayu36.jpg"
 
 - id: amatsuda
   fullname: Akira Matsuda
-  gravatar: 11493
   organization: " "
   title: "OSS と GitHub (仮)"
+  avatar: "https://avatars2.githubusercontent.com/u/11493"
