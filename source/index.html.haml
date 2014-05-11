@@ -92,6 +92,15 @@ layout    : layout
           %a{href: "https://github.com/GitHubKaigi/2014-LT-Application", target: "_blank", class: "btn-green"}
             LT応募先
 
+    %section#section-sponsor.cols
+      %h1 Sponsor
+
+      %ul.sponsor-list
+        - data.sponsor.each do |sponsor|
+          %li.sponsor-list-item<>
+            %a{href: "#{sponsor.url}", target: "_blank"}
+              %img{ src: "#{sponsor.img}", alt: "#{sponsor.name}" }
+
     %section#section-team.cols
       %h1 Team
 
