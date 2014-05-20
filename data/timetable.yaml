@@ -1,35 +1,47 @@
-- time: 1:00 to 1:30
-  speaker:
-  body: Sign in and warm up
+- time: 1:30 to 1:40
+  speaker: "@naoya"
+  body: "Hello, Github Kaigi"
 
-- time: 1:30 to 2:00
-  speaker: HIROCASTER
-  body: Github 実践入門著者による pull request 型開発とかの話
+- time: 1:40 to 2:10
+  speaker: "@hirocaster"
+  body: "Github実践入門 ─ Pull Request による開発の変革 (仮)"
 
-- time: 2:00 to 2:30
-  speaker: Coby Chapple
+- time: 2:15 to 2:45
+  speaker: "@shibayu36"
+  body: "はてなブログの開発フローと Github (仮)"
+
+- time: 2:50 to 3:20
+  speaker: "@amatsuda"
+  body: "OSS と GitHub (仮)"
+
+- time: 3:25 to 4:05
+  speaker: "@cobyism"
   body: How Github Works
 
-- time: 2:30 to 3:00
-  speaker: Nathan Sobo
-  body: Atom
-
-- time: 3:00 to 3:30
+- time: 4:05 to 4:35
   speaker:
-  body: Github を使った開発プロセス
+  body: おやつ休憩
 
-- time: 3:30 to 4:00
-  speaker: inao
-  body: Github で雑誌記事を作る
+- time: 4:35 to 4:55
+  speaker: "@inao"
+  body: "Githubで雑誌記事を作る (仮)"
 
-- time: 4:00 to 4:30
+- time: 5:00 to 5:30
+  speaker: "@nathansobo"
+  body: "Atom, the Programmable Text Editor"
+
+- time: 5:35 to 6:05
+  speaker: "@yuku-t"
+  body: "Qiita で人気の Git & GitHub ノウハウ（仮）"
+
+- time: 6:10 to 7:00
+  speaker: "@miyagawa"
+  body: "Rebuild.fm Live"
+
+- time: 7:05 to 7:35
   speaker:
-  body: OSS プロジェクト関連
+  body: "LT x 5"
 
-- time: 5:00 to 6:00
-  speaker: you
-  body: LT Time
-
-- time: 6:00 to 7:00
-  speaker: miyagawa
-  body: Rebuild.fm LIVE
+- time: 7:35 to 7:40
+  speaker:
+  body: "kanpai"

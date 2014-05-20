@@ -55,6 +55,21 @@ layout    : layout
           %br
           当日録画したストリーミングや内容をGitHubがウェブサイトで公開する予定です。
 
+    %section#section-time-table.cols
+      %h1 Time table
+
+      .col
+        %ul.time-table-list
+          - data.timetable.each do |tt|
+            %li
+              .head
+                .time
+                  = tt.time
+                .speaker-name
+                  = tt.speaker
+              .body
+                = tt.body
+
     %section#section-speaker.cols
       %h1 Session & Speaker
 
