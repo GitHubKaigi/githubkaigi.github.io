@@ -1,0 +1,31 @@
+- order: "1"
+  id: "kenchan"
+  body: "新たなるソーシャルコーディング時代の幕開け"
+
+- order: "2"
+  id: "sota0805"
+  body: "Git・Githubに隠された便利な機能"
+
+- order: "3"
+  id: "pnsk"
+  body: "GitHub@Ameba (仮）"
+
+- order: "4"
+  id: "uribo"
+  body: "GitHubで行うreproducible research"
+
+- order: "5"
+  id: "pwim"
+  body: "Using GitHub to get a better job"
+
+- order: "6"
+  id: "sakatam"
+  body: "Hubot レビュアーおみくじ"
+
+- order: "7"
+  id: "yunico-jp"
+  body: "本当は怖くない！デザイナーがGitを大好きになった♡５つの理由（仮）"
+
+- order: "8"
+  id: "taea"
+  body: "pplog.net の作り方( ˘ω˘)"

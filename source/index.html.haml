@@ -94,30 +94,21 @@ layout    : layout
     %section#section-lt.cols
       %h1 LT
 
-      .lt-guideline
+      .col
         %p
-          1人あたり持ち時間は5分を予定していますので、GitHubメンバーに一言言いたい方、GitHubを活用した面白い事例の紹介など幅広い応募をお待ちしております。
+          LTの応募は締め切りました。多数のご応募ありがとうございました。
           %br
-          LTに当選した方には記念品を贈呈します。
-        %h2
-          発表にあたっての注意事項
-        %p
-          LT登壇者も
-          %a{href: "http://githubkaigi.doorkeeper.jp/events/11081", target: "_blank"}
-            http://githubkaigi.doorkeeper.jp/events/11081
-          から参加登録をお願いします。
-
-      .nav-to-lt-form
-        %h2 LT応募方法
-        %p
-          %a{href: "https://github.com/GitHubKaigi/2014-LT-Application", target: "_blank"}
-            こちらのリポジトリ
-          にIssueを登録してください。
-          %br
-          タイトルに発表タイトル、本文には簡単な内容の紹介とサイトに掲載する際のお名前、所属などをお願いします。
-          %br
-          %a{href: "https://github.com/GitHubKaigi/2014-LT-Application", target: "_blank", class: "btn-green"}
-            LT応募先
+          抽選で当選したLTと発表の順序は下記の通りになります。
+        %ul.lt-list
+          - data.lt.each do |lt|
+            %li
+              .head
+                .order
+                  = lt.order
+                .speaker-name
+                  = lt.id
+              .body
+                = lt.body
 
     %section#section-sponsor.cols
       %h1 Sponsor
