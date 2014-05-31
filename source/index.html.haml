@@ -108,7 +108,7 @@ layout    : layout
                 .order
                   = lt.order
                 .speaker-name
-                  = lt.id
+                  %a{href: "https://github.com/#{lt.id}", target: "_blank"} #{lt.id}
               .body
                 = lt.body
 
