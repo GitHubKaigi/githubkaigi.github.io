@@ -71,7 +71,12 @@ layout    : layout
                 .speaker-name
                   = tt.speaker
               .body
-                = tt.body
+                - if tt.url.present?
+                  %a{href: "#{tt.url}", target: "_blank"}
+                    #{tt.body}
+                    %i.icon-external-link
+                - else
+                  = tt.body
 
     %section#section-speaker.cols
       %h1 Session & Speaker

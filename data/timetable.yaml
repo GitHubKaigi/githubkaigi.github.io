@@ -1,47 +1,60 @@
 - time: 1:30 to 1:40
   speaker: "@naoya"
   body: "Hello, Github Kaigi"
+  url: " "
+
 
 - time: 1:40 to 2:10
   speaker: "@hirocaster"
-  body: "Github実践入門 ─ Pull Request による開発の変革 (仮)"
+  body: "GitHub実践入門 ─ Pull Request による開発の変革"
+  url: "https://speakerdeck.com/hirocaster/githubkaigi-keynote"
 
 - time: 2:15 to 2:45
   speaker: "@shibayu36"
-  body: "はてなブログの開発フローと Github (仮)"
+  body: "はてなブログチームの開発フローとGitHub"
+  url: "https://speakerdeck.com/shibayu36/hatenaburogutimufalsekai-fa-hurotogithub"
 
 - time: 2:50 to 3:20
   speaker: "@amatsuda"
   body: "OSS と GitHub (仮)"
+  url: "https://speakerdeck.com/a_matsuda/oss-to-github"
 
 - time: 3:25 to 4:05
   speaker: "@cobyism"
   body: How Github Works
+  url: "https://speakerdeck.com/cobyism/how-github-works-github-kaigi-tokyo-2014"
 
 - time: 4:05 to 4:35
   speaker:
   body: おやつ休憩
+  url: " "
 
 - time: 4:35 to 4:55
   speaker: "@inao"
-  body: "Githubで雑誌記事を作る (仮)"
+  body: "GitHubで 雑誌・書籍を作る"
+  url: "http://www.slideshare.net/inao/githubkaigi"
 
 - time: 5:00 to 5:30
   speaker: "@nathansobo"
   body: "Atom, the Programmable Text Editor"
+  url: "https://www.dropbox.com/s/utaud80bk5egse3/Atom%20%E2%80%93%20GitHub%20Kaigi_jp.pdf"
 
 - time: 5:35 to 6:05
   speaker: "@yuku-t"
-  body: "Qiita で人気の Git & GitHub ノウハウ（仮）"
+  body: "入門書には載ってない Git & GitHub Tips"
+  url: "https://speakerdeck.com/yuku/ru-men-shu-nihazai-tutenai-git-and-github-tips"
 
 - time: 6:10 to 7:00
   speaker: "@miyagawa"
   body: "Rebuild.fm Live"
+  url: " "
 
 - time: 7:05 to 7:45
   speaker:
   body: "LT x 8"
+  url: " "
 
 - time: 7:45 to 7:50
   speaker:
   body: "kanpai"
+  url: " "
