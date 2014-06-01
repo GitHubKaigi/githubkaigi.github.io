@@ -2,46 +2,54 @@
   fullname: Nathan Sobo
   organization: GitHub Inc.
   title: "Atom, the Programmable Text Editor"
+  url: "https://www.dropbox.com/s/utaud80bk5egse3/Atom%20%E2%80%93%20GitHub%20Kaigi_jp.pdf"
   avatar: "https://avatars2.githubusercontent.com/u/1789"
 
 - id: cobyism
   fullname: Coby Chapple
   organization: GitHub Inc.
   title: "How GitHub Works"
+  url: "https://speakerdeck.com/cobyism/how-github-works-github-kaigi-tokyo-2014"
   avatar: "https://avatars2.githubusercontent.com/u/296432"
 
 - id: hirocaster
   fullname: Hiroki OHTSUKA
   organization: "GitHub実践入門著者"
-  title: "GitHub実践入門 ─ Pull Request による開発の変革 (仮)"
+  title: "GitHub実践入門 ─ Pull Request による開発の変革"
+  url: "https://speakerdeck.com/hirocaster/githubkaigi-keynote"
   avatar: "https://avatars2.githubusercontent.com/u/122881"
 
 - id: miyagawa
   fullname: Tatsuhiko Miyagawa
   organization: Rebuild
   title: "Rebuild.fm Live"
+  url: ""
   avatar: "https://avatars2.githubusercontent.com/u/3499"
 
 - id: inao
   fullname: inao
   organization: "技術評論社 Gijutsu-Hyohron Co., Ltd."
-  title: "GitHubで雑誌記事を作る (仮)"
+  title: "GitHubで 雑誌・書籍を作る"
+  url: "http://www.slideshare.net/inao/githubkaigi"
   avatar: "https://avatars2.githubusercontent.com/u/35430"
 
 - id: shibayu36
   fullname: shibayu36
   organization: Hatena Inc.
-  title: "はてなブログの開発フローと GitHub (仮)"
+  title: "はてなブログチームの開発フローとGitHub"
+  url: "https://speakerdeck.com/shibayu36/hatenaburogutimufalsekai-fa-hurotogithub"
   avatar: "assets/img/shibayu36.jpg"
 
 - id: amatsuda
   fullname: Akira Matsuda
-  organization: " "
+  organization: "test"
   title: "OSS と GitHub (仮)"
+  url: "https://speakerdeck.com/a_matsuda/oss-to-github"
   avatar: "https://avatars2.githubusercontent.com/u/11493"
 
 - id: yuku-t
   fullname: Yuku TAKAHASHI
   organization: Increments inc.
-  title: "Qiita で人気の Git & GitHub ノウハウ（仮）"
+  title: "入門書には載ってない Git & GitHub Tips"
+  url: "https://speakerdeck.com/yuku/ru-men-shu-nihazai-tutenai-git-and-github-tips"
   avatar: "https://avatars1.githubusercontent.com/u/96157"

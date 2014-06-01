@@ -85,7 +85,12 @@ layout    : layout
                   %img{ src: "#{speaker.avatar}", alt: 'Avatar'}
               .info
                 .session
-                  = speaker.title
+                  - if speaker.url.present?
+                    %a{href: "#{speaker.url}", target: "_blank"}
+                      #{speaker.title}
+                      %i.icon-external-link
+                  - else
+                    = speaker.title
                 .names
                   .fullname
                     = speaker.fullname
