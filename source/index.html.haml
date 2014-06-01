@@ -121,7 +121,11 @@ layout    : layout
                 .speaker-name
                   %a{href: "https://github.com/#{lt.id}", target: "_blank"} #{lt.id}
               .body
-                = lt.body
+                - if lt.url.present?
+                  %a{href: "#{lt.url}", target: "_blank"}
+                    #{lt.body}
+                - else
+                  = lt.body
 
     %section#section-sponsor.cols
       %h1 Sponsor
