@@ -1,3 +1,9 @@
 - name: "CyberAgent"
+  role: "Places Sponser"
   img: "assets/img/sponsor-ca.png"
   url: "http://www.cyberagent.co.jp/"
+
+- name: "Engine Yard"
+  role: "Coffee Sponsor"
+  img: "assets/img/sponsor-ey.png"
+  url: "https://www.engineyard.co.jp/"

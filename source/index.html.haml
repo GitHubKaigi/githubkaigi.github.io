@@ -133,8 +133,11 @@ layout    : layout
       %ul.sponsor-list
         - data.sponsor.each do |sponsor|
           %li.sponsor-list-item<>
-            %a{href: "#{sponsor.url}", target: "_blank"}
-              %img{ src: "#{sponsor.img}", alt: "#{sponsor.name}" }
+            %p.sponsor-img
+              %a{href: "#{sponsor.url}", target: "_blank"}
+                %img{ src: "#{sponsor.img}", alt: "#{sponsor.name}" }
+            %p.sponsor-role
+              = sponsor.role
 
     %section#section-team.cols
       %h1 Team
