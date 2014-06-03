@@ -16,6 +16,7 @@
 - order: "4"
   id: "uribo"
   body: "GitHubで行うreproducible research"
+  url: "https://speakerdeck.com/s_uryu/githubdexing-ureproducible-research-github-kaigi-tokyo-2014"
 
 - order: "5"
   id: "pwim"
